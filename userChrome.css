@@ -1,0 +1,45 @@
+#tabbrowser-arrowscrollbox-periphery,
+#vertical-tabs-newtab-button,
+#urlbar-searchmode-switcher,
+#identity-box,
+#vertical-spacer,
+#page-action-buttons,
+#downloads-button,
+#sidebar-button,
+#back-button,
+#forward-button,
+#reload-button,
+#stop-button,
+#home-button,
+#PanelUI-menu-button,
+.titlebar-button {
+  display: none;
+}
+
+.buttons-wrapper {
+  min-height: 0 !important;
+  height: 0;
+  visibility: hidden;
+}
+
+body {
+  background: #1e1e2e99 !important;
+}
+
+.browserContainer {
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+#navigator-toolbox {
+  margin-top: -40px;
+}
+
+#navigator-toolbox:hover, #navigator-toolbox:focus-within {
+  margin-top: 0;
+}
+
+#sidebar-launcher-splitter {
+  display: none;
+}
